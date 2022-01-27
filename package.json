@@ -1,0 +1,25 @@
+{
+  "name": "hyper-ext-searchify",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "source": "nodejs/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "test": "deno fmt nodejs && deno lint nodejs && uvu -r tsm nodejs"
+  },
+  "repository": "https://github.com/hyper63/hyper-ext-searchify.git",
+  "author": "Tom Wilson <tom@hyper.io>",
+  "devDependencies": {
+    "microbundle": "^0.14.2",
+    "tsm": "^2.2.1",
+    "uvu": "^0.5.3"
+  }
+}

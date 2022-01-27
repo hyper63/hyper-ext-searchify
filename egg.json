@@ -1,0 +1,24 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.8/src/schema.json",
+  "name": "hyper-ext-searchify",
+  "entry": "./deno/mod.ts",
+  "description": "hyper connect ext for composing search and data",
+  "homepage": "https://github.com/hyper63/hyper-ext-searchify",
+  "repo": "https://github.com/hyper63/hyper-ext-searchify",
+  "version": "0.0.0",
+  "unstable": false,
+  "unlisted": false,
+  "files": [
+    "./deno/mod.ts",
+    "./deno/deps.ts",
+    "./egg.json",
+    "./README.md"
+  ],
+  "ignore": [
+    "./.git*"
+  ],
+  "checkFormat": false,
+  "checkTests": false,
+  "checkInstallation": false,
+  "check": false
+}
