@@ -58,7 +58,7 @@ deno cache --import-map import_map.json mod.ts
 
 ```js
 import { connect } from 'hyper-connect'
-import { counter } from 'hyper-ext-searchify'
+import { searchify } from 'hyper-ext-searchify'
 
 // create HYPER=[connection string] env variable
 const hyper = searchify(connect(process.env.HYPER))
