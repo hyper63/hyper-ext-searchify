@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "ramda": "https://cdn.skypack.dev/ramda@0.28.0?dts",
+    "asserts": "https://deno.land/std@0.122.0/testing/asserts.ts",
+    "crocks": "https://cdn.skypack.dev/crocks@v0.12.4"
+  }
+}
